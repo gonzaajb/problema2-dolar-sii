@@ -7,6 +7,7 @@ from cargar_datos import cargar_precios, precios_como_lista_plana, MESES, ANIOS
 from errores import (redondear_cifras_significativas, error_absoluto, error_relativo, propagar_suma_resta)
 from anualidad import analisis_A4, analisis_A5
 from punto_flotante import analisis_B2
+from errores import analisis_A2, analisis_A3
 #------------------------------------------------------------------------------------
 
 CARPETA_GRAFICOS = os.path.join(os.path.dirname(__file__), "..", "graficos")
@@ -172,6 +173,17 @@ def generar_tabla_evaluacion_error():
 
     for r in resultados_a4:
         f.write("anual," + str(r["anio"]) + ",,," + str(round(r["ea"], 3)) + "," + str(round(r["er"], 3)) + "\n")
+
+    # agrego los pares de puntos evaluados en A2 (compra-venta) y A3 (cancelacion),
+    # que el enunciado pide explicitamente en la tabla de evaluacion de error
+    ganancia, ea_ganancia, er_ganancia = analisis_A2(precio_compra_real=798.26, precio_venta_real=1000.76)
+    f.write("par,A2_compra-venta," + str(round(ganancia, 2)) + ",," +
+            str(round(ea_ganancia, 3)) + "," + str(round(er_ganancia, 3)) + "\n")
+
+    delta_p, ea_delta, er_delta = analisis_A3()
+    f.write("par,A3_cancelacion_dic22-dic23," + str(round(delta_p, 2)) + ",," +
+            str(round(ea_delta, 3)) + "," + str(round(er_delta, 3)) + "\n")
+
     f.close()
 
     print("tabla de evaluacion de error guardada en:", ruta)
