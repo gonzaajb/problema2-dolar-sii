@@ -6,6 +6,7 @@ La idea del trabajo es analizar el error y como se propaga, usando como dato el 
 
 Estructura de las carpetas solicitado por el profesor
 
+```
 problema2-dolar-sii/
 ├── README.md
 ├── INFORME.md
@@ -19,6 +20,7 @@ problema2-dolar-sii/
 │   ├── punto_flotante.py
 │   └── graficos.py
 └── graficos/
+```
 
 Como se ejecuta
 
