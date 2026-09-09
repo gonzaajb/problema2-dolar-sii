@@ -1,0 +1,53 @@
+tipo,etiqueta,valor_real,valor_aprox,error_absoluto,error_relativo_pct
+mensual,Enero 2022,822.05,820.0,2.05,0.249
+mensual,Febrero 2022,807.07,810.0,2.93,0.363
+mensual,Marzo 2022,799.19,800.0,0.81,0.101
+mensual,Abril 2022,815.12,820.0,4.88,0.599
+mensual,Mayo 2022,849.39,850.0,0.61,0.072
+mensual,Junio 2022,857.77,860.0,2.23,0.26
+mensual,Julio 2022,953.71,950.0,3.71,0.389
+mensual,Agosto 2022,904.35,900.0,4.35,0.481
+mensual,Septiembre 2022,921.01,920.0,1.01,0.11
+mensual,Octubre 2022,955.89,960.0,4.11,0.43
+mensual,Noviembre 2022,917.05,920.0,2.95,0.322
+mensual,Diciembre 2022,875.66,880.0,4.34,0.496
+mensual,Enero 2023,826.34,830.0,3.66,0.443
+mensual,Febrero 2023,798.26,800.0,1.74,0.218
+mensual,Marzo 2023,809.5,810.0,0.5,0.062
+mensual,Abril 2023,803.84,800.0,3.84,0.478
+mensual,Mayo 2023,798.64,800.0,1.36,0.17
+mensual,Junio 2023,799.87,800.0,0.13,0.016
+mensual,Julio 2023,813.4,810.0,3.4,0.418
+mensual,Agosto 2023,855.66,860.0,4.34,0.507
+mensual,Septiembre 2023,884.4,880.0,4.4,0.498
+mensual,Octubre 2023,926.35,930.0,3.65,0.394
+mensual,Noviembre 2023,886.61,890.0,3.39,0.382
+mensual,Diciembre 2023,874.67,870.0,4.67,0.534
+mensual,Enero 2024,907.99,910.0,2.01,0.221
+mensual,Febrero 2024,963.44,960.0,3.44,0.357
+mensual,Marzo 2024,967.93,970.0,2.07,0.214
+mensual,Abril 2024,960.14,960.0,0.14,0.015
+mensual,Mayo 2024,917.88,920.0,2.12,0.231
+mensual,Junio 2024,926.08,930.0,3.92,0.423
+mensual,Julio 2024,937.56,940.0,2.44,0.26
+mensual,Agosto 2024,929.9,930.0,0.1,0.011
+mensual,Septiembre 2024,926.21,930.0,3.79,0.409
+mensual,Octubre 2024,933.81,930.0,3.81,0.408
+mensual,Noviembre 2024,971.6,970.0,1.6,0.165
+mensual,Diciembre 2024,982.3,980.0,2.3,0.234
+mensual,Enero 2025,1000.76,1000.0,0.76,0.076
+mensual,Febrero 2025,956.62,960.0,3.38,0.353
+mensual,Marzo 2025,932.55,930.0,2.55,0.273
+mensual,Abril 2025,961.96,960.0,1.96,0.204
+mensual,Mayo 2025,941.01,940.0,1.01,0.107
+mensual,Junio 2025,938.04,940.0,1.96,0.209
+mensual,Julio 2025,951.55,950.0,1.55,0.163
+mensual,Agosto 2025,966.3,970.0,3.7,0.383
+mensual,Septiembre 2025,960.37,960.0,0.37,0.039
+mensual,Octubre 2025,953.97,950.0,3.97,0.416
+mensual,Noviembre 2025,935.7,940.0,4.3,0.46
+mensual,Diciembre 2025,916.16,920.0,3.84,0.419
+anual,2024,,,0.31,0.419
+anual,2022,,,0.39,0.722
+anual,2025,,,0.92,1.095
+anual,2023,,,0.67,1.367
